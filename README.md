@@ -10,7 +10,7 @@
 
 ---
 
-## �‌ Table of Contents
+## 📑 Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
@@ -57,13 +57,13 @@ and visualization.
 
 ## 🛠 Tech Stack
 
-| Component   | Purpose                          |
-|-------------|----------------------------------|
-| Python 3    | Core language                    |
-| NumPy       | Numerical computation            |
-| Matplotlib  | Plotting & visualization         |
-| Colorama    | Cross-platform colored output    |
-| os / platform | Terminal & OS handling         |
+| Component     | Purpose                       |
+|---------------|-------------------------------|
+| Python 3      | Core language                 |
+| NumPy         | Numerical computation         |
+| Matplotlib    | Plotting & visualization      |
+| Colorama      | Cross-platform colored output |
+| os / platform | Terminal & OS handling        |
 
 ---
 
@@ -73,30 +73,31 @@ Expected-value/
 ├── Expected-value.py   # Main script
 ├── data.txt            # Optional input dataset
 └── README.md           # Documentation
+```
 
 ---
 
 ## ⚙️ Installation
 
 Clone the repository:
-
-bash
+```bash
 git clone https://github.com/Abolfazlilka/Expected-value.git
 cd Expected-value
+```
 
 Install the required libraries:
-
-bash
+```bash
 pip install numpy matplotlib colorama
+```
 
 ---
 
 ## ▶️ Usage
 
 Run the script:
-
-bash
+```bash
 python Expected-value.py
+```
 
 Then follow the interactive prompts in the terminal.
 
@@ -120,12 +121,12 @@ After the data is loaded, it computes the **mean**, **variance**, and
 ---
 
 ## 📤 Example Output
-
-text
+```text
 Data Summary:
   Mean:               78.54
   Variance:           33.12
   Standard Deviation:  5.75
+```
 
 Available plots:
 
@@ -156,7 +157,3 @@ Available plots:
 
 This project is open source and free for **educational and personal use**.
 `
-دم.
-- بخش‌ها را با جداکننده (`---`) و آیکون مرتب کردم و Roadmap را به‌صورت checklist درآوردم.
-
-اگر بخواهی می‌تونم نسخه‌ی کاملاً انگلیسی بدون ایموجی (مناسب محیط‌های رسمی‌تر) یا یک نسخه‌ی دوزبانه فارسی/انگلیسی هم برات بسازم.
