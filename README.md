@@ -1,66 +1,82 @@
-# Expected Value
+# 📊 Expected Value
 
-A Python-based statistical analysis project for calculating **mean**, **variance**, and **standard deviation**, with optional visualizations such as **histograms**, **normal distribution samples**, and **sample means plots**.
+> A Python-based educational tool for descriptive statistics — calculate **mean**, **variance**, and **standard deviation** with interactive input and rich visualizations.
 
-This project is designed as a simple educational tool to help understand descriptive statistics and the concept of **expected value** through interactive user input and visualization.
+<p align="center">
+  <img src="https://img.shields.io/badge/python-3.8%2B-blue.svg" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/license-Educational-green.svg" alt="License">
+  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status">
+</p>
 
-## Features
+---
 
-- Calculate:
+## �‌ Table of Contents
+
+- [Overview](#-overview)
+- [Features](#-features)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [How It Works](#-how-it-works)
+- [Example Output](#-example-output)
+- [Roadmap](#-roadmap)
+- [Author](#-author)
+- [License](#-license)
+
+---
+
+## 🔎 Overview
+
+**Expected Value** is a simple, interactive command-line tool that helps students and
+beginners understand core concepts of descriptive statistics — *expected value*,
+*variance*, *standard deviation*, and *sampling behavior* — through hands-on input
+and visualization.
+
+---
+
+## ✨ Features
+
+- **Statistics**
   - Mean
   - Variance
   - Standard Deviation
-- Accept data input in three ways:
-  - Manual input
-  - From a `data.txt` file
-  - Default built-in dataset
-- Draw a histogram of the input data
-- Generate and visualize normally distributed random data based on the dataset
-- Draw a sample means plot using random resampling
-- Colored terminal output using `colorama`
-- Error handling with fallback to default data
+- **Flexible data input**
+  - Manual entry from the keyboard
+  - Load from a `data.txt` file
+  - Built-in default dataset
+- **Visualizations**
+  - Histogram of the input data
+  - Normally distributed sample based on the dataset's mean & std
+  - Sample means plot via bootstrap-style resampling
+- **Quality of life**
+  - Colored terminal output with `colorama`
+  - Graceful error handling with automatic fallback to default data
 
-## Technologies Used
+---
 
-- Python 3
-- NumPy
-- Matplotlib
-- Colorama
-- OS / Platform modules
+## 🛠 Tech Stack
 
-## Project Structure
-```bash
+| Component   | Purpose                          |
+|-------------|----------------------------------|
+| Python 3    | Core language                    |
+| NumPy       | Numerical computation            |
+| Matplotlib  | Plotting & visualization         |
+| Colorama    | Cross-platform colored output    |
+| os / platform | Terminal & OS handling         |
+
+---
+
+## 📁 Project Structure
+```text
 Expected-value/
-├── Expected-value.py
-├── data.txt
-└── README.md
+├── Expected-value.py   # Main script
+├── data.txt            # Optional input dataset
+└── README.md           # Documentation
 
-## How It Works
+---
 
-When the program starts, it asks the user to choose one of the following input methods:
-
-1. **Manual input**  
-   Enter data one by one from the keyboard.
-
-2. **Text file input**  
-   Load data from `data.txt`.
-
-3. **Default data**  
-   Use the predefined dataset included in the program.
-
-After receiving the data, the program calculates:
-
-- Mean
-- Variance
-- Standard Deviation
-
-Then the user can choose to:
-
-- Draw a histogram of the original data
-- Generate a normal sample based on the data's mean and standard deviation
-- Draw a sample averages plot using bootstrap-style resampling
-
-## Installation
+## ⚙️ Installation
 
 Clone the repository:
 
@@ -73,67 +89,74 @@ Install the required libraries:
 bash
 pip install numpy matplotlib colorama
 
-## Usage
+---
 
-Run the script with:
+## ▶️ Usage
+
+Run the script:
 
 bash
 python Expected-value.py
 
 Then follow the interactive prompts in the terminal.
 
-## Example Workflow
+---
 
-- Choose data input method
-- View calculated statistics
-- Decide whether to draw a histogram
-- Optionally generate a normal sample plot
-- Optionally draw a sample averages plot
+## 🧠 How It Works
 
-## Example Output
+On launch, the program asks you to choose an input method:
 
-The program displays statistical results such as:
+1. **Manual input** — enter values one by one from the keyboard.
+2. **Text file input** — load values from `data.txt`.
+3. **Default data** — use the predefined built-in dataset.
+
+After the data is loaded, it computes the **mean**, **variance**, and
+**standard deviation**, then lets you optionally:
+
+- Draw a **histogram** of the original data
+- Generate a **normal sample** based on the data's mean and std
+- Draw a **sample means plot** using bootstrap-style resampling
+
+---
+
+## 📤 Example Output
 
 text
 Data Summary:
-Mean: 78.54
-Variance: 33.12
-Standard Deviation: 5.75
+  Mean:               78.54
+  Variance:           33.12
+  Standard Deviation:  5.75
 
-It can also display plots such as:
+Available plots:
 
 - Histogram of the original dataset
 - Histogram of generated normal data
 - Sample means distribution plot
 
-## Purpose of the Project
+---
 
-This project was created to practice Python programming and apply basic statistical concepts in a practical and visual way. It is especially useful for students and beginners who want to better understand:
+## 🚀 Roadmap
 
-- Expected value
-- Variance
-- Standard deviation
-- Sampling and distribution behavior
+- [ ] CSV file input support
+- [ ] Improved plot styling and labeling
+- [ ] Median, mode, and additional descriptive statistics
+- [ ] GUI version
+- [ ] Unit tests
+- [ ] Refactor into functions and modules
 
-## Notes
+---
 
-- If an error occurs during input, the program automatically falls back to the default dataset.
-- The script clears the terminal screen depending on the operating system.
-- The banner is displayed using colored text for a better terminal experience.
-
-## Future Improvements
-
-- Add support for CSV file input
-- Improve plot styling and labeling
-- Add median, mode, and other descriptive statistics
-- Create a GUI version
-- Add unit tests
-- Refactor the code into functions and modules
-
-## Author
+## 👤 Author
 
 **Abolfazl Ilka**
 
-## License
+---
 
-This project is open source and available for educational and personal use.
+## 📄 License
+
+This project is open source and free for **educational and personal use**.
+`
+دم.
+- بخش‌ها را با جداکننده (`---`) و آیکون مرتب کردم و Roadmap را به‌صورت checklist درآوردم.
+
+اگر بخواهی می‌تونم نسخه‌ی کاملاً انگلیسی بدون ایموجی (مناسب محیط‌های رسمی‌تر) یا یک نسخه‌ی دوزبانه فارسی/انگلیسی هم برات بسازم.
