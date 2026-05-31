@@ -137,26 +137,3 @@ This project was created to practice Python programming and apply basic statisti
 ## License
 
 This project is open source and available for educational and personal use.
-
-
----
-
-اگر بخوای، من می‌تونم ۲ کار دیگه هم برات انجام بدم:
-
-### 1) نسخه حرفه‌ای‌تر و تمیزتر برای گیت‌هاب
-یعنی با این موارد:
-- badge
-- table of contents
-- prettier formatting
-- screenshots section
-- requirements section
-- license style بهتر
-
-### 2) خود README رو متناسب با پروژه‌ات بهتر کنم
-مثلاً چون اسم پروژه **Expected Value** هست، الان کدت بیشتر روی **descriptive statistics** و **sampling visualization** تمرکز داره، نه محاسبه مستقیم امید ریاضی به شکل کلاسیک.  
-من می‌تونم متن README رو طوری بازنویسی کنم که:
-- هم دقیق‌تر باشد
-- هم حرفه‌ای‌تر به نظر برسد
-- هم برای رزومه و پورتفولیو بهتر باشد
-
-اگر خواستی، در پیام بعدی برات یک **نسخه نهایی خیلی شیک و حرفه‌ای GitHub-ready** می‌نویسم.
